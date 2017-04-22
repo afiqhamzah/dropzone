@@ -18,3 +18,15 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::resource('states', 'StatesController');
+
+Route::resource('areas', 'AreasController');
+
+Route::resource('categories', 'CategoriesController');
+
+Route::resource('subcategories', 'SubcategoriesController');
+
+Route::resource('listingtypes', 'ListingtypesController');
+
+Route::resource('brands', 'BrandsController');
