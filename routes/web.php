@@ -30,3 +30,5 @@ Route::resource('subcategories', 'SubcategoriesController');
 Route::resource('listingtypes', 'ListingtypesController');
 
 Route::resource('brands', 'BrandsController');
+
+Route::resource('products', 'ProductsController');
